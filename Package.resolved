@@ -1,0 +1,15 @@
+{
+  "originHash" : "f3b2b1d907968cf2dcb56b4848f52c9e0b7cd8731c04981b93c28fcbb01cdf96",
+  "pins" : [
+    {
+      "identity" : "swifthamcrest",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nschum/SwiftHamcrest/",
+      "state" : {
+        "branch" : "no-macro",
+        "revision" : "4b17ee13814dbe5600ca2f9aff0bf03459ace46a"
+      }
+    }
+  ],
+  "version" : 3
+}
