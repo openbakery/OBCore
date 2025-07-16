@@ -6,7 +6,7 @@ import Foundation
 import Hamcrest
 import HamcrestSwiftTesting
 import Testing
-@testable import OBCore
+@testable import OBExtra
 
 struct URL_Extension_Test {
 
