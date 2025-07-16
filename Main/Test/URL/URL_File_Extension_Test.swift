@@ -19,6 +19,11 @@ struct URL_Extension_Test {
 		assertThat(url.fileExists(), equalTo(false))
 	}
 
+	@Test func web_url_does_not_exist() throws {
+		let url = try #require(URL(string: "https://localhost/tmp"))
+		assertThat(url.fileExists(), equalTo(false))
+	}
+
 	@Test func create_directory() throws {
 		let url = URL.temporaryDirectory.appendingPathComponent("URL_Extension_Test")
 		defer {
