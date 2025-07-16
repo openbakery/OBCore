@@ -4,6 +4,10 @@
 
 import Foundation
 
+
+///
+/// This extension has helpers for file URLS
+///
 extension URL {
 
 	///
@@ -13,14 +17,23 @@ extension URL {
 		return FileManager.default.fileExists(atPath: self.path)
 	}
 
+	///
+	/// Create the path of the file URL with all the intermediate directories
+	///
 	public func createDirectories() throws {
 		try FileManager.default.createDirectory(at: self, withIntermediateDirectories: true)
 	}
 
+	///
+	/// Deletes the file or directory
+	///
 	public func delete() throws {
 		try FileManager.default.removeItem(at: self)
 	}
 
+	///
+	/// Deletes the file or directory if it exists
+	///
 	public func deleteIfExists() {
 		do {
 			if fileExists() {
