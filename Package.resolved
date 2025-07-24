@@ -1,5 +1,5 @@
 {
-  "originHash" : "f3b2b1d907968cf2dcb56b4848f52c9e0b7cd8731c04981b93c28fcbb01cdf96",
+  "originHash" : "3fdb1e8b606756c9f9c924ca353c9ff940af0819dd0bc2abe534cc4106e5d261",
   "pins" : [
     {
       "identity" : "swifthamcrest",
@@ -7,7 +7,7 @@
       "location" : "https://github.com/nschum/SwiftHamcrest/",
       "state" : {
         "branch" : "no-macro",
-        "revision" : "4b17ee13814dbe5600ca2f9aff0bf03459ace46a"
+        "revision" : "15b64b12384ed7a64a4ed6972a91d2ad9c4b6796"
       }
     }
   ],

@@ -16,10 +16,8 @@ let package = Package(
 	targets: [
 		.target(
 			name: "OBExtra",
-			path: "Main",
-			sources: [
-				"Source"
-			]),
+			path: "Main/Source",
+		),
 		.testTarget(
 			name: "OBExtraTests",
 			dependencies: [
@@ -27,9 +25,7 @@ let package = Package(
 				.product(name: "Hamcrest", package: "SwiftHamcrest"),
 				.product(name: "HamcrestSwiftTesting", package: "SwiftHamcrest")
 			],
-			path: "Main",
-			sources: [
-				"Test"
-			])
+			path: "Main/Test",
+		)
 	]
 )
